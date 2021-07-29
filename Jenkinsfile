@@ -10,7 +10,7 @@ stage('Deploy OnPremise') {
 steps {
 echo 'Deploying mule project due to the latest code commit….'
 echo 'Deploying to the configured environment….'
-bat 'mvn clean deploy -DmuleDeploy -DskipTests -Dmule.version=4.3.0 -Danypoint.username=NileshApi986 -Danypoint.password=Dhonil@698 -Dtarget=TPH-MULE-DEV -Dtarget.type=server -Denv=Sandbox -Dappname=cicd-test-app3'
+bat 'mvn clean deploy -DmuleDeploy -DskipTests -Dmule.version=4.3.0 -Danypoint.username=rohit_tripointe -Danypoint.password=Tslplabap@123 -Dtarget=TPH-MULE-DEV -Dtarget.type=server -Denv=Development -Dappname=cicd-test-app3'
 }
 }
 }
