@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="jenkinsnewFlow" doc:id="9f98cb51-d840-45d5-8c21-6b60e83f8cfd" >
+		<scheduler doc:name="Scheduler" doc:id="bdd988b7-2860-4b58-934d-7561d3c34779" >
+			<scheduling-strategy >
+				<fixed-frequency />
+			</scheduling-strategy>
+		</scheduler>
+		<logger level="INFO" doc:name="Logger" doc:id="c578db12-164f-4973-b4f5-eddc0d5fe403" />
+	</flow>
+</mule>
